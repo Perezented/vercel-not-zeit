@@ -14,7 +14,12 @@ function App() {
     }, []);
     return (
         <main>
-            <h1>Test</h1>{' '}
+            <h1>Testing of Vercel</h1>
+            <h3>2 days have passed since Zeit was aquired.</h3>
+
+            <br />
+            <h2>The date according to Go is:</h2>
+            <p>{date ? date : 'Loading date...'}</p>
         </main>
     );
 }
